@@ -6,11 +6,11 @@ de Fibonacci empezando en 0.
 function fibo(n){
   let a=0;
   let b=1;
-  for(let i=0;i<n;i++){
+  for(let i=0;i<=n;i++){
     console.log(a);
     let c = a+b;
     a=b;
     b=c;
   }
 }
-console.log(fibo(10));
+console.log(fibo(50));
